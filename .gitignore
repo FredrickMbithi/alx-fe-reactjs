@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+alx-react-app/node_modules/
+
+# Build outputs
+dist/
+build/
+alx-react-app/dist/
+alx-react-app/build/
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
