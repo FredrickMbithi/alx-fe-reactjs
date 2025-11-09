@@ -7,6 +7,7 @@ function MainContent() {
       <p style={{ lineHeight: '1.6', color: '#666' }}>
         This is the main content area where you can display your application's primary information.
       </p>
+      <p style={{ lineHeight: '1.6', color: '#444', marginTop: '8px' }}>I love to visit New York, Paris, and Tokyo.</p>
       <UserProfile name="Alice Johnson" age={28} bio="Loves traveling and photography" />
       <UserProfile name="Bob Smith" age={35} bio="Software developer and coffee enthusiast" />
     </main>
