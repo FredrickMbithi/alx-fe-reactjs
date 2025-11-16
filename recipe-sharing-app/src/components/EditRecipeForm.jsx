@@ -11,8 +11,8 @@ function EditRecipeForm({ recipe }) {
     setDescription(recipe?.description ?? '')
   }, [recipe])
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
+  const handleSubmit = (event) => {
+    event.preventDefault()
     if (!recipe) return
     updateRecipe({ id: recipe.id, title: title.trim(), description: description.trim() })
   }
