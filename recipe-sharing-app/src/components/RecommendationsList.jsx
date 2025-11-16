@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { useRecipeStore } from '../store/recipeStore'
+import { useRecipeStore } from './recipeStore'
 
 function RecommendationsList() {
   const recommendations = useRecipeStore((s) => s.recommendations)
