@@ -107,6 +107,42 @@ src/
   - No search results
   - API errors
 
+## Deployment to Vercel
+
+### Option 1: Deploy via Vercel CLI
+
+1. Install Vercel CLI:
+
+```bash
+npm install -g vercel
+```
+
+2. Deploy:
+
+```bash
+cd github-user-search
+vercel
+```
+
+3. Add environment variable in Vercel dashboard:
+   - Go to your project settings
+   - Add `VITE_APP_GITHUB_API_KEY` with your GitHub token
+
+### Option 2: Deploy via Vercel Dashboard
+
+1. Push your code to GitHub (without .env file - it's gitignored)
+2. Go to [vercel.com](https://vercel.com)
+3. Import your GitHub repository
+4. Add environment variable: `VITE_APP_GITHUB_API_KEY`
+5. Deploy!
+
+### Important Notes
+
+- ✅ `.env` file is gitignored and will NOT be deployed
+- ✅ Add your GitHub token as an environment variable in Vercel settings
+- ✅ Build command: `npm run build`
+- ✅ Output directory: `dist`
+
 ## License
 
 MIT
