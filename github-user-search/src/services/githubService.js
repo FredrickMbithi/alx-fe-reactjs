@@ -65,6 +65,6 @@ export const fetchAdvancedSearch = async ({ username, location, minRepos }) => {
     if (error.response?.status === 422) {
       throw new Error('Invalid search query');
     }
-    throw new Error('Failed to search users');
+    throw new Error(`Failed to search users: ${error.message}`);
   }
 };
