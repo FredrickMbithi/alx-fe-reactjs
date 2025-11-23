@@ -56,9 +56,8 @@ export const fetchAdvancedSearch = async ({ username, location, minRepos }) => {
       return [];
     }
     
-    const response = await githubApi.get('/search/users', {
-      params: { q: query }
-    });
+    // Use full URL for advanced search: https://api.github.com/search/users?q
+    const response = await githubApi.get(`https://api.github.com/search/users?q=${query}`);
     
     return response.data.items || [];
   } catch (error) {
