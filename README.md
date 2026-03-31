@@ -2,7 +2,7 @@
 
 Collection of React.js projects and exercises from the ALX Software Engineering program, demonstrating progressive mastery of React concepts from basics to advanced patterns.
 
-## 📚 Projects Overview
+## Projects Overview
 
 This repository contains **9 React projects** covering:
 
@@ -16,7 +16,7 @@ This repository contains **9 React projects** covering:
 8. **tailwind-react-integration** — Styling with Tailwind CSS
 9. **[Additional projects as subdirectories]**
 
-## 🎯 Learning Objectives
+## Learning Objectives
 
 ### Core React Concepts
 - Component architecture (functional & class components)
@@ -34,7 +34,7 @@ This repository contains **9 React projects** covering:
 - Styling approaches (CSS Modules, Tailwind CSS)
 - State management patterns
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 14+ and npm/yarn
@@ -59,7 +59,7 @@ npm start
 
 Access at: http://localhost:3000
 
-## 📁 Project Descriptions
+## Project Descriptions
 
 ### 1. alx-react-app
 **Focus:** React fundamentals
@@ -116,7 +116,7 @@ Access at: http://localhost:3000
 - Responsive design
 - Component styling patterns
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **React 18.x** — Core library
 - **React Router** — Client-side routing
@@ -125,7 +125,7 @@ Access at: http://localhost:3000
 - **PropTypes** — Runtime type checking
 - **Create React App** / **Vite** — Build tools
 
-## 📖 Concepts Demonstrated
+## Concepts Demonstrated
 
 ### Component Patterns
 ```jsx
@@ -181,7 +181,7 @@ function Form() {
 }
 ```
 
-## 🎓 ALX Program Context
+## ALX Program Context
 
 These projects are part of the **ALX Software Engineering Frontend Specialization**, structured to build skills progressively:
 
@@ -191,7 +191,7 @@ These projects are part of the **ALX Software Engineering Frontend Specializatio
 **Week 7-8:** Routing and API integration  
 **Week 9-10:** Advanced patterns and styling
 
-## 📝 Development Best Practices
+## Development Best Practices
 
 Each project demonstrates:
 - Clean component structure
@@ -201,7 +201,7 @@ Each project demonstrates:
 - Consistent code formatting
 - Error boundary implementation (where applicable)
 
-## 🧪 Testing (If Implemented)
+## Testing (If Implemented)
 
 Some projects may include:
 - Unit tests with Jest
@@ -213,12 +213,12 @@ Run tests:
 npm test
 ```
 
-## 🔗 Related Repositories
+## Related Repositories
 
 - [alx_be_python](https://github.com/FredrickMbithi/alx_be_python) — Backend Python projects
 - [Alx_DjangoLearnLab](https://github.com/FredrickMbithi/Alx_DjangoLearnLab) — Django learning projects
 
-## 📚 Resources
+## Resources
 
 **Official Docs:**
 - [React Documentation](https://react.dev/)
@@ -230,11 +230,11 @@ npm test
 - React official tutorial
 - Frontend Masters courses
 
-## 📄 License
+## License
 
 Educational projects - MIT License
 
-## 👤 Author
+## Author
 
 Fredrick Mbithi  
 ALX Software Engineering Student
